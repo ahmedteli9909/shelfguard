@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import '../../../core/providers/workspace_provider.dart';
 import '../../../core/constants/app_strings.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../shared/widgets/pantry_background.dart';
@@ -111,32 +109,6 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
   }
 
   void _completeSetup() {
-    final workspaceProvider = context.read<WorkspaceProvider>();
-
-    if (_selectedAccountType == 'personal') {
-      workspaceProvider.setupPersonalWorkspace(
-        name: _nameController.text.trim(),
-        alertDays: _selectedAlertDays,
-        alertTime: _selectedAlertTime,
-      );
-    } else {
-      if (_isCreatingWorkspace) {
-        workspaceProvider.setupBusinessWorkspace(
-          userName: _nameController.text.trim(),
-          workspaceName: _nameController.text.trim(),
-          storeCategory: _selectedStoreType,
-          teamSize: _selectedTeamSize,
-          hasLogo: _hasLogo,
-          staffList: _staffList,
-        );
-      } else {
-        workspaceProvider.joinBusinessWorkspace(
-          userName: _nameController.text.trim(),
-          inviteCode: _inviteCodeController.text.trim(),
-        );
-      }
-    }
-
     // Navigate straight to dashboard
     Navigator.pushAndRemoveUntil(
       context,

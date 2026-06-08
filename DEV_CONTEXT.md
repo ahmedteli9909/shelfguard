@@ -83,26 +83,3 @@ Before making commits or launching the app, run the following checks from the pr
    dart format .
    ```
    All files must conform to standard Flutter formatting.
-
----
-
-## 🏗️ State Management & Dashboard Flow
-
-We integrated the onboarding state with the main application shell using a global state provider:
-
-### 1. Global Workspace Provider
-- Created `WorkspaceProvider` to store the active user name, account type (personal/business), active workspace details, team details, and the list of inventory products.
-- Registered globally in [main.dart](file:///Users/ahmedteli/Desktop/flutter_development/shelfguard/lib/main.dart).
-- Saves workspace state when the user completes step 3 of onboarding, dynamically populating the mock products dataset:
-  - **Personal**:Groceries like milk, eggs, bread, and yogurt.
-  - **Business**:Pharmacy medicines and produce, customized with large quantities.
-
-### 2. Dynamic Dashboard Header & Summary Stats
-- Refactored `DashboardHeader` to read from the provider. Dynamically displays the user's name, active workspace type/title, and auto-generates avatar initials from their full name.
-- Refactored `SummaryCardsGrid` to dynamically calculate counts (Total, Expiring Soon, Expired, and Safe) directly from the list of products in the provider.
-- Refactored `RecentActivityList` to list actual items sorted by creation time, with customized status colors, icons, and relative time-ago strings (e.g., "Just now", "2h ago"). If the product list is empty, a premium empty state container is rendered.
-
-### 3. Add Product & Scanning Actions
-- Created `AddProductSheet` containing full form validations, customized purple-themed date picker dialog, and dropdown category fields matching audited design guidelines.
-- Modified the main floating action button and the quick actions bar to open the product sheet.
-- Integrated a simulated barcode scanner modal sheet that mimics aligning a barcode inside a frame, plays a brief delay, and opens the product sheet with the scanned barcode pre-filled.

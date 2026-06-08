@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'core/providers/workspace_provider.dart';
 import 'core/theme/app_theme.dart';
 import 'features/auth/screens/splash_screen.dart';
 
@@ -15,7 +14,10 @@ class ShelfGuardApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
-      providers: [ChangeNotifierProvider(create: (_) => WorkspaceProvider())],
+      providers: [
+        // Add your providers here later
+        Provider<int>.value(value: 0),
+      ],
       child: MaterialApp(
         title: 'ShelfGuard',
         debugShowCheckedModeBanner: false,

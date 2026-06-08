@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import '../../../core/theme/app_colors.dart';
-import '../../../core/providers/workspace_provider.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
 class SummaryCardsGrid extends StatelessWidget {
@@ -9,8 +7,6 @@ class SummaryCardsGrid extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final workspaceProvider = context.watch<WorkspaceProvider>();
-
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 24.0),
       child: Column(
@@ -20,7 +16,7 @@ class SummaryCardsGrid extends StatelessWidget {
               Expanded(
                 child: _buildCard(
                   title: 'Total Items',
-                  count: workspaceProvider.totalItems.toString(),
+                  count: '42',
                   icon: Icons.inventory_2_outlined,
                   color: AppColors.primary,
                 ).animate().fadeIn(duration: 400.ms).slideY(begin: 0.1, end: 0),
@@ -30,7 +26,7 @@ class SummaryCardsGrid extends StatelessWidget {
                 child:
                     _buildCard(
                           title: 'Expiring Soon',
-                          count: workspaceProvider.expiringSoonCount.toString(),
+                          count: '5',
                           icon: Icons.access_time_rounded,
                           color: AppColors.warning,
                         )
@@ -47,7 +43,7 @@ class SummaryCardsGrid extends StatelessWidget {
                 child:
                     _buildCard(
                           title: 'Expired',
-                          count: workspaceProvider.expiredCount.toString(),
+                          count: '2',
                           icon: Icons.error_outline_rounded,
                           color: AppColors.danger,
                         )
@@ -60,7 +56,7 @@ class SummaryCardsGrid extends StatelessWidget {
                 child:
                     _buildCard(
                           title: 'Safe',
-                          count: workspaceProvider.safeCount.toString(),
+                          count: '35',
                           icon: Icons.check_circle_outline_rounded,
                           color: AppColors.success,
                         )

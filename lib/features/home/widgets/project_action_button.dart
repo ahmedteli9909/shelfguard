@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'add_product_sheet.dart';
 
 class ProjectActionButton extends StatelessWidget {
   const ProjectActionButton({super.key});
@@ -29,14 +28,7 @@ class ProjectActionButton extends StatelessWidget {
         color: Colors.transparent,
         child: InkWell(
           borderRadius: BorderRadius.circular(99),
-          onTap: () {
-            showModalBottomSheet(
-              context: context,
-              isScrollControlled: true,
-              backgroundColor: Colors.transparent,
-              builder: (context) => const AddProductSheet(),
-            );
-          },
+          onTap: () {},
           child: const Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
