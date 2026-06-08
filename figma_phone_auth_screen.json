@@ -1,0 +1,243 @@
+{
+  "id": "240:4927",
+  "name": "Create an account",
+  "isAsset": false,
+  "visible": false,
+  "locked": false,
+  "stuckNodes": [],
+  "attachedConnectors": [],
+  "variableConsumptionMap": {},
+  "boundVariables": {},
+  "resolvedVariableModes": {
+    "VariableCollectionId:4ad6c9e702bc2a3a8f822ff7c2a7b1cba5952e1c/302:112": "64:0",
+    "VariableCollectionId:b64a2289bb78cf229d4ae6a6f602e0848ef4d917/256:1146": "256:4",
+    "VariableCollectionId:0f7875a63428dc30d128ba853040b191217e070f/256:1146": "256:4",
+    "VariableCollectionId:c40a836ead309204bcd9454528955a5dc21086a1/266:2144": "137:1",
+    "VariableCollectionId:09157ea4e9bc90ab262fc4ec9f5229e898498237/266:2144": "137:1"
+  },
+  "inferredVariables": {
+    "fills": [
+      [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:86af3d950bcbc6625a256eafa7a7b9cf61c2abef/341:92"
+        },
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6f6341951dae746aa999b31a6ead679b65b48104/2964:323"
+        }
+      ]
+    ]
+  },
+  "availableInferredVariables": {},
+  "explicitVariableModes": {},
+  "opacity": 1,
+  "blendMode": "PASS_THROUGH",
+  "isMask": false,
+  "maskType": "ALPHA",
+  "effects": [
+    {
+      "type": "DROP_SHADOW",
+      "visible": true,
+      "radius": 29,
+      "boundVariables": {},
+      "color": {
+        "r": 0.3921568691730499,
+        "g": 0.3921568691730499,
+        "b": 0.43529412150382996,
+        "a": 0.20000000298023224
+      },
+      "offset": {
+        "x": 0,
+        "y": 7
+      },
+      "spread": 0,
+      "blendMode": "NORMAL",
+      "showShadowBehindNode": true
+    }
+  ],
+  "effectStyleId": "",
+  "relativeTransform": [
+    [
+      1,
+      0,
+      2462
+    ],
+    [
+      0,
+      1,
+      1467
+    ]
+  ],
+  "absoluteTransform": [
+    [
+      1,
+      0,
+      2462
+    ],
+    [
+      0,
+      1,
+      1467
+    ]
+  ],
+  "x": 2462,
+  "y": 1467,
+  "width": 375,
+  "height": 812,
+  "absoluteBoundingBox": {
+    "x": 2462,
+    "y": 1467,
+    "width": 375,
+    "height": 812
+  },
+  "gridRowSpan": 1,
+  "gridColumnSpan": 1,
+  "gridRowAnchorIndex": -1,
+  "gridColumnAnchorIndex": -1,
+  "gridChildHorizontalAlign": "AUTO",
+  "gridChildVerticalAlign": "AUTO",
+  "rotation": 0,
+  "layoutAlign": "INHERIT",
+  "constrainProportions": false,
+  "layoutGrow": 0,
+  "layoutPositioning": "AUTO",
+  "layoutSizingHorizontal": "FIXED",
+  "layoutSizingVertical": "FIXED",
+  "children": [
+    {
+      "id": "240:4928",
+      "name": "image",
+      "type": "RECTANGLE"
+    },
+    {
+      "id": "240:4929",
+      "name": "Frame 427320227",
+      "type": "FRAME"
+    },
+    {
+      "id": "240:4970",
+      "name": "IOS iPhone / Status Bar — with phone notch",
+      "type": "INSTANCE"
+    },
+    {
+      "id": "240:4971",
+      "name": "IOS iPhone / Home Indicator",
+      "type": "INSTANCE"
+    }
+  ],
+  "exportSettings": [],
+  "fills": [
+    {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    }
+  ],
+  "fillStyleId": "",
+  "strokes": [],
+  "strokeStyleId": "",
+  "strokeWeight": 1,
+  "strokeAlign": "INSIDE",
+  "strokeJoin": "MITER",
+  "dashPattern": [],
+  "strokeCap": "NONE",
+  "strokeMiterLimit": 4,
+  "fillGeometry": [
+    {
+      "windingRule": "NONZERO",
+      "data": "M0 39 C0 17.4609 17.4609 0 39 0 L336 0 C357.539 0 375 17.4609 375 39 L375 773 C375 794.539 357.539 812 336 812 L39 812 C17.4609 812 0 794.539 0 773 L0 39 Z"
+    }
+  ],
+  "strokeGeometry": [],
+  "variableWidthStrokeProperties": {
+    "widthProfile": "UNIFORM",
+    "variableWidthPoints": []
+  },
+  "complexStrokeProperties": {
+    "type": "BASIC"
+  },
+  "cornerRadius": 39,
+  "cornerSmoothing": 0,
+  "topLeftRadius": 39,
+  "topRightRadius": 39,
+  "bottomLeftRadius": 39,
+  "bottomRightRadius": 39,
+  "paddingLeft": 0,
+  "paddingRight": 0,
+  "paddingTop": 0,
+  "paddingBottom": 0,
+  "primaryAxisAlignItems": "MIN",
+  "counterAxisAlignItems": "MIN",
+  "primaryAxisSizingMode": "AUTO",
+  "layoutWrap": "NO_WRAP",
+  "counterAxisSpacing": 0,
+  "counterAxisAlignContent": "AUTO",
+  "gridRowCount": 0,
+  "gridColumnCount": 0,
+  "gridRowGap": 0,
+  "gridColumnGap": 0,
+  "gridRowSizingCSS": "",
+  "gridColumnSizingCSS": "",
+  "gridRowSizes": [],
+  "gridColumnSizes": [],
+  "gridAutoTracks": "NONE",
+  "gridItemsPositioning": "MANUAL",
+  "strokeTopWeight": 1,
+  "strokeBottomWeight": 1,
+  "strokeLeftWeight": 1,
+  "strokeRightWeight": 1,
+  "annotations": [],
+  "layoutGrids": [],
+  "gridStyleId": "",
+  "backgrounds": [
+    {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    }
+  ],
+  "backgroundStyleId": "",
+  "clipsContent": true,
+  "guides": [],
+  "expanded": false,
+  "constraints": {
+    "horizontal": "MIN",
+    "vertical": "MIN"
+  },
+  "layoutMode": "NONE",
+  "counterAxisSizingMode": "FIXED",
+  "horizontalPadding": 0,
+  "verticalPadding": 0,
+  "itemSpacing": 0,
+  "overflowDirection": "NONE",
+  "numberOfFixedChildren": 2,
+  "overlayPositionType": "CENTER",
+  "overlayBackground": {
+    "type": "NONE"
+  },
+  "overlayBackgroundInteraction": "NONE",
+  "itemReverseZIndex": false,
+  "strokesIncludedInLayout": false,
+  "reactions": [],
+  "playbackSettings": {
+    "autoplay": true,
+    "loop": true,
+    "muted": false
+  },
+  "type": "FRAME"
+}

@@ -1,0 +1,468 @@
+{
+  "buttons": [
+    {
+      "name": "Property 1=Large, Property 2=Primary",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Small, Property 2=Primary",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Large, Property 2=Google",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Large, Property 2=Apple",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Large, Property 2=Facebook",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Rounded, Property 2=Small",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Large, Property 2=Secondary",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Rounded, Property 2=Large-Text",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Rounded, Property 2=Medium-Light",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Rounded, Property 2=Medium-Dark",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Small, Property 2=with Icon",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "Property 1=Email, Property 2=Default",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Password, Property 2=Default",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Last Name, Property 2=Default",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Last Name, Property 2=Fill",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=First Name, Property 2=Default",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=First Name, Property 2=Fill",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Date of birth, Property 2=Default",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Date of birth, Property 2=Fill",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Location, Property 2=Fill",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Location, Property 2=Default",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Gender, Property 2=Default",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Gender, Property 2=Fill",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Height, Property 2=Default",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Height, Property 2=Fill",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Weight, Property 2=Default",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Weight, Property 2=Fill",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Code, Property 2=Fill",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Code, Property 2=Default",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Email, Property 2=Fill",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Password, Property 2=Fill",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Upload Image, Property 2=Default",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    },
+    {
+      "name": "Property 1=Upload Image, Property 2=Fill",
+      "type": "COMPONENT",
+      "cornerRadius": 0,
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "itemSpacing": 0,
+      "fills": [],
+      "effects": []
+    }
+  ]
+}

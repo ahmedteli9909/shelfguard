@@ -1,0 +1,189 @@
+{
+  "id": "240:4929",
+  "name": "Frame 427320227",
+  "isAsset": false,
+  "visible": true,
+  "locked": false,
+  "stuckNodes": [],
+  "attachedConnectors": [],
+  "variableConsumptionMap": {},
+  "boundVariables": {},
+  "resolvedVariableModes": {
+    "VariableCollectionId:4ad6c9e702bc2a3a8f822ff7c2a7b1cba5952e1c/302:112": "64:0",
+    "VariableCollectionId:b64a2289bb78cf229d4ae6a6f602e0848ef4d917/256:1146": "256:4",
+    "VariableCollectionId:0f7875a63428dc30d128ba853040b191217e070f/256:1146": "256:4",
+    "VariableCollectionId:c40a836ead309204bcd9454528955a5dc21086a1/266:2144": "137:1",
+    "VariableCollectionId:09157ea4e9bc90ab262fc4ec9f5229e898498237/266:2144": "137:1"
+  },
+  "inferredVariables": {},
+  "availableInferredVariables": {},
+  "explicitVariableModes": {},
+  "opacity": 1,
+  "blendMode": "PASS_THROUGH",
+  "isMask": false,
+  "maskType": "ALPHA",
+  "effects": [],
+  "effectStyleId": "",
+  "relativeTransform": [
+    [
+      1,
+      0,
+      16
+    ],
+    [
+      0,
+      1,
+      204
+    ]
+  ],
+  "absoluteTransform": [
+    [
+      1,
+      0,
+      2478
+    ],
+    [
+      0,
+      1,
+      1671
+    ]
+  ],
+  "x": 16,
+  "y": 204,
+  "width": 343,
+  "height": 404,
+  "absoluteBoundingBox": {
+    "x": 2478,
+    "y": 1671,
+    "width": 343,
+    "height": 404
+  },
+  "gridRowSpan": 1,
+  "gridColumnSpan": 1,
+  "gridRowAnchorIndex": -1,
+  "gridColumnAnchorIndex": -1,
+  "gridChildHorizontalAlign": "AUTO",
+  "gridChildVerticalAlign": "AUTO",
+  "rotation": 0,
+  "layoutAlign": "INHERIT",
+  "constrainProportions": false,
+  "layoutGrow": 0,
+  "layoutPositioning": "AUTO",
+  "layoutSizingHorizontal": "FIXED",
+  "layoutSizingVertical": "HUG",
+  "children": [
+    {
+      "id": "240:4930",
+      "name": "Frame 1",
+      "type": "FRAME"
+    },
+    {
+      "id": "240:4967",
+      "name": "Button",
+      "type": "FRAME"
+    }
+  ],
+  "exportSettings": [],
+  "fills": [],
+  "fillStyleId": "",
+  "strokes": [],
+  "strokeStyleId": "",
+  "strokeWeight": 1,
+  "strokeAlign": "INSIDE",
+  "strokeJoin": "MITER",
+  "dashPattern": [],
+  "strokeCap": "NONE",
+  "strokeMiterLimit": 4,
+  "fillGeometry": [
+    {
+      "windingRule": "NONZERO",
+      "data": "M0 0 L343 0 L343 404 L0 404 L0 0 Z"
+    }
+  ],
+  "strokeGeometry": [],
+  "variableWidthStrokeProperties": {
+    "widthProfile": "UNIFORM",
+    "variableWidthPoints": []
+  },
+  "complexStrokeProperties": {
+    "type": "BASIC"
+  },
+  "cornerRadius": 0,
+  "cornerSmoothing": 0,
+  "topLeftRadius": 0,
+  "topRightRadius": 0,
+  "bottomLeftRadius": 0,
+  "bottomRightRadius": 0,
+  "paddingLeft": 0,
+  "paddingRight": 0,
+  "paddingTop": 0,
+  "paddingBottom": 0,
+  "primaryAxisAlignItems": "MIN",
+  "counterAxisAlignItems": "CENTER",
+  "primaryAxisSizingMode": "AUTO",
+  "layoutWrap": "NO_WRAP",
+  "counterAxisSpacing": 0,
+  "counterAxisAlignContent": "AUTO",
+  "gridRowCount": 0,
+  "gridColumnCount": 0,
+  "gridRowGap": 0,
+  "gridColumnGap": 0,
+  "gridRowSizingCSS": "",
+  "gridColumnSizingCSS": "",
+  "gridRowSizes": [],
+  "gridColumnSizes": [],
+  "gridAutoTracks": "NONE",
+  "gridItemsPositioning": "MANUAL",
+  "strokeTopWeight": 1,
+  "strokeBottomWeight": 1,
+  "strokeLeftWeight": 1,
+  "strokeRightWeight": 1,
+  "inferredAutoLayout": {
+    "layoutMode": "VERTICAL",
+    "paddingLeft": 0,
+    "paddingRight": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0,
+    "counterAxisSizingMode": "FIXED",
+    "primaryAxisSizingMode": "AUTO",
+    "primaryAxisAlignItems": "MIN",
+    "counterAxisAlignItems": "CENTER",
+    "layoutAlign": "INHERIT",
+    "layoutGrow": 0,
+    "itemSpacing": 20,
+    "layoutPositioning": "AUTO"
+  },
+  "annotations": [],
+  "layoutGrids": [],
+  "gridStyleId": "",
+  "backgrounds": [],
+  "backgroundStyleId": "",
+  "clipsContent": false,
+  "guides": [],
+  "expanded": false,
+  "constraints": {
+    "horizontal": "CENTER",
+    "vertical": "CENTER"
+  },
+  "layoutMode": "VERTICAL",
+  "counterAxisSizingMode": "FIXED",
+  "horizontalPadding": 0,
+  "verticalPadding": 0,
+  "itemSpacing": 20,
+  "overflowDirection": "NONE",
+  "numberOfFixedChildren": 0,
+  "overlayPositionType": "CENTER",
+  "overlayBackground": {
+    "type": "NONE"
+  },
+  "overlayBackgroundInteraction": "NONE",
+  "itemReverseZIndex": false,
+  "strokesIncludedInLayout": false,
+  "reactions": [],
+  "playbackSettings": {
+    "autoplay": true,
+    "loop": true,
+    "muted": false
+  },
+  "type": "FRAME"
+}
